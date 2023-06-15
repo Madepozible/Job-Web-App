@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.nav-logo{
+    width: 50px;
+    margin-right: 100px;
+}
+
+.sec-head{
+    background-color: black;
+ padding: 5px;
+ height: 70px;
+}
+
+.sec-head .div-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+ }
+
+.order-nav .list-nav {
+    float: left;
+    width: 130px;
+    color: orange;
+    list-style: none;
+}
+
+.order-nav .list-nav .link-nav{
+ color: rgb(196, 109, 4);
+ text-decoration: none;
+}
+
+
+          /* HOME PAGE */
+.home-one{
+  width: 500px;
+}
+.home-two{
+ width: 500px;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+}
+
+.home-sec{
+  display: flex;
+  flex-wrap: wrap;
+  height: 80vh;
+}
+
+.home-head-one{
+  font-size: 40px;
+  text-align: center;
+  margin: 10px;
+  color: rgb(27, 26, 26);
+}
+.home-head-two{
+  font-size: 45px;
+  text-align: center;
+  margin-left: 10px;
+  color: rgb(27, 26, 26);
+  margin-bottom: 10px;
+}
+
+.span-one{
+  color: rgb(196, 109, 4);
+}
+.home-para-one{
+  text-align: center;
+  font-size: 17px;
+  color: #757579;
+  margin-bottom: 5px;
+}
+.home-para-two{
+  text-align: center;
+  font-size: 17px;
+  color: #757579;
+  margin-bottom: 25px;
+}
+
+.para-div-one{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.para-buttooon{
+  background-color: rgb(196, 109, 4);
+  height: 35px; 
+  width: 130px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.home-img{
+  width: 100px;
+}
+
+.icon-div-one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-para-one{
+  color: #757579;
+}
+
+#circle-img-div{
+  white-space: nowrap;
+  animation: scroll;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  width: 300px;
+}
+
+#circle-img-div .circle-one{
+  height: 100%;
+}
+
+.home-image-banner-one{
+  display: none;
+}
+.circle-one{
+  width: 80px;
+}
+
+@keyframes scroll {
+  0%{
+    transform: translateX(0);
+  }
+
+  100%{
+    transform: translateX(-50%);
+  }
+}
+
+.home-image-banner{
+  width: 250px;
+}

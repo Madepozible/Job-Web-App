@@ -1,0 +1,46 @@
+     /* BIG SCREEN */
+
+     @media screen and (min-width:900px){
+        .home-two{
+        
+             object-fit: contain;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+           }
+
+           .home-sec{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .home-image-banner{
+            width: 400px;
+          }
+
+          
+.home-head-one{
+    font-size: 55px;
+
+  }
+  .home-head-two{
+    font-size: 53px;
+  }
+ 
+  .home-para-one{
+    font-size: 18px;
+  }
+  .home-para-two{
+    font-size: 18px;
+  }
+
+  .home-img{
+    width: 110px;
+  }
+
+  .home-image-banner-one{
+    display: block;
+    width: 70px;
+  }
+     }

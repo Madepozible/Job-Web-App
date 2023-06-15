@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+ <style>
+
+     body{
+        background-color: black;
+     }
+     #slide-div{
+  position: absolute;
+  white-space:nowrap;
+    left: 0;
+  animation-name: scroll;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+     }
+    
+
+      #slide-div img{
+        height: 100%; 
+      }
+
+      @keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+ </style>
+<body>
+      <div id="slide-div">
+        <iframe src="#" frameborder="0">
+            <img src="./images/men one.jpg" alt="" class="slide-one">
+            <img src="./images/men .jpg" alt="" class="slide-one">
+            <img src="./images/woman one.jpg" alt="" class="slide-one">
+            <img src="./images/woman two.jpg" alt="" class="slide-one">
+            <img src="./images/men one.jpg" alt="" class="slide-one">
+            <img src="./images/men .jpg" alt="" class="slide-one">
+            <img src="./images/woman one.jpg" alt="" class="slide-one">
+            <img src="./images/woman two.jpg" alt="" class="slide-one">
+            <img src="./images/woman one.jpg" alt="" class="slide-one">
+            <img src="./images/woman two.jpg" alt="" class="slide-one">
+        </iframe>
+      </div>
+
+      
+</body>
+</html>
