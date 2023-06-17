@@ -17,6 +17,7 @@
 
           .home-image-banner{
             width: 400px;
+            box-shadow: 0 0 5px darkorange;
           }
 
           
@@ -44,3 +45,12 @@
     width: 70px;
   }
      }
+
+       /* Hamburger part */
+     @media screen and (max-width:700px){
+       .nav-head{
+        display: none;
+       }
+     }
+
+            /* END OF Hamburger part */
