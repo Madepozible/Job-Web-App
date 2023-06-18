@@ -291,3 +291,72 @@
             cursor: pointer;
           }
             /* end OF works part */
+
+
+            /* POST JOB PAT */
+.post-div,
+.post-div-one{
+  width: 500px;
+}
+   
+
+.post-div{
+  display: flex;
+  justify-content: center;
+}
+
+.post-div-one{
+  text-align: center;
+}
+
+
+.post-sec{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* height: 50vh; */
+}
+
+.post-img{
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+} 
+
+.business-name{
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.color-one{
+  color: orangered;
+}
+
+.upskil{
+  font-size: 25px;
+}
+
+
+.upskill-div{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.list-skill{
+  color: orangered;
+  font-size: 20px;
+}
+
+.job-link{
+  text-decoration: none;
+  color: orangered;
+}
+
+.job-link:hover{
+  text-decoration: underline;
+}
+
+   /*END OF POST JOB PAT */
