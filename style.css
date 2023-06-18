@@ -242,6 +242,10 @@
   column-gap: 20px;
 }
 
+.cath-warp{
+  height: 100%;
+}
+
    .content{
     width: 450px;
     height: 200px;
