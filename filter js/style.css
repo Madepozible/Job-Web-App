@@ -118,3 +118,16 @@ img{
     }
 } 
 
+
+@media screen and (max-width:700px){
+    .button-value{
+margin: 10px;      
+    }
+  
+    #buttons{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
