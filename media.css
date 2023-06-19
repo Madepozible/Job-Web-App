@@ -158,10 +158,20 @@
 }
 
 .foot-sec{
-  background-color: #000;
-  height: 70vh;
   display: flex;
   justify-content: center;
+  height: 50vh;
+  background-color: #f4f4f5;
+  align-items: center;
+  margin: 30px;
+ }
+
+ 
+.head-two-foot{
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+  margin-left: 0px;
 }
      }
 
@@ -173,3 +183,15 @@
      }
 
             /* END OF Hamburger part */
+
+              /* SMALL SCREEN */
+
+              @media screen and (max-width:700px){
+                .foot-sec{
+                  display: block;
+                  justify-content: center;
+                  align-items: center;
+                  height: 50vh;
+                  background-color: #f4f4f5;
+                 }
+              }

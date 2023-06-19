@@ -513,7 +513,54 @@ body{
 
 
                             /* FOOTER PART */
-.foot-logo{
-  width: 50px;
+.foot-one,
+.foot-two,
+.foot-three,
+.foot-four{
+  width: 500px;
 }
+
+.foot-one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot-two,
+.nav-foot{
+  padding: 30px;
+}
+
+.head-two-foot{
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+  margin-left: 30px;
+}
+       .foot-sec{
+        display: flex;
+        justify-content: center;
+        height: 50vh;
+        background-color: #f4f4f5;
+        align-items: center;
+       }
+
+       .foot-image{
+        width: 60px;
+       }
+
+       .foot-four{
+        font-size: 27px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+
+       .list-foot,
+       .link-foot{
+        color: #000;
+        font-weight: bold;
+        text-decoration: none;
+        list-style: none;
+       }
                             /*END OF FOOTER PART */
