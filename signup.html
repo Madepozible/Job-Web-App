@@ -10,8 +10,17 @@
     <section class="container forms">
       <div class="form login">
         <div class="form-content">
-          <header>Login to your account</header>
+          <header>Create an account</header>
           <form action="#">
+            <div class="field input-field">
+              <input
+                class="input"
+                type="email"
+                placeholder="Full name"
+                id="inputName"
+              />
+            </div>
+
             <div class="field input-field">
               <input
                 class="input"
@@ -36,15 +45,14 @@
             </div>
 
             <div class="field button-field">
-              <button id="signin">Login</button>
-              <button class="none" id="signup">Login</button>
+              <button id="signup">Signup</button>
             </div>
           </form>
 
           <div class="form-link">
             <span
-              >Don't have an account?
-              <a href="./signup.html" class="link signup-link">Signup</a></span
+              >Already have an account?
+              <a href="./index.html" class="link signup-link">Login</a></span
             >
           </div>
         </div>
@@ -63,6 +71,8 @@
             <i class="bx bxl-google facebook-icon"></i>
             <span>Login with Google</span>
           </a>
+          <br />
+          <p id="user">Logged in as:</p>
         </div>
       </div>
     </section>
