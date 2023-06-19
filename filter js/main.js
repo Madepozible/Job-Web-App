@@ -108,13 +108,7 @@ let products = {
             price: "49",
             image: "filter js/gra  two.jpg",
         },
-        {
-            productName: "Comfy Gray Pants",
-
-            category: "Graphic Design",
-            price: "49",
-            image: "gra two.jpg",
-        },
+       
     ]
 };
 
