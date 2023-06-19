@@ -197,7 +197,5 @@
               }
 
               @media screen and (max-width:414px){
-                .circle-img-div{
-                  display: none;
-                }
+             
               }
