@@ -44,6 +44,60 @@
     display: block;
     width: 70px;
   }
+
+  .selects{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 10px;
+  }
+
+
+  .search-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search{
+    width: 600px;
+    height: 30px;
+    border: none;
+  }
+
+  .search{
+    border-bottom: 2px solid orangered;
+    outline: none;
+  }
+
+  .search:focus{
+    border-bottom-color: lightgreen;
+  }
+
+  .search-wrap{
+    position: relative;
+  }
+
+  .click-button{
+    position: absolute;
+    width: 85px;
+    height: 45px;
+    cursor: pointer;
+    right: 330px;
+    top: -15px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .content{
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 3px #000000ab;
+    border-radius: 10px;
+   }
+
      }
 
        /* Hamburger part */
