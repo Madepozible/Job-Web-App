@@ -15,7 +15,14 @@ let products = {
 
             category: "Topwear",
             price: "30",
-            image: "translate.jpg",
+            image: "mar two.jpg",
+        },
+        {
+            productName: "Affiliate Marketing",
+
+            category: "Topwear",
+            price: "30",
+            image: "mar one.jpg",
         },
         {
             productName: "Content Creator",
@@ -69,9 +76,44 @@ let products = {
         {
             productName: "Comfy Gray Pants",
 
+            category: "Graphic",
+            price: "49",
+            image: "graphic.png",
+        },
+        {
+            productName: "Comfy Gray Pants",
+
             category: "Jacket",
             price: "49",
-            image: "one.png",
+            image: "mar one.jpg",
+        },
+        {
+            productName: "Comfy Gray Pants",
+
+            category: "Graphic Design",
+            price: "49",
+            image: "mar one.jpg",
+        },
+        {
+            productName: "Comfy Gray Pants",
+
+            category: "Graphic Design",
+            price: "49",
+            image: "mar one.jpg",
+        },
+        {
+            productName: "Comfy Gray Pants",
+
+            category: "Graphic Design",
+            price: "49",
+            image: "filter js/gra  two.jpg",
+        },
+        {
+            productName: "Comfy Gray Pants",
+
+            category: "Graphic Design",
+            price: "49",
+            image: "gra two.jpg",
         },
     ]
 };

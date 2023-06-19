@@ -87,6 +87,19 @@ img{
     display: none;
 }
 
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+#search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
  @media screen and (max-width: 720px){
     img{
         max-width: 100%;
