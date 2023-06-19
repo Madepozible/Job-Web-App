@@ -92,12 +92,77 @@
   }
 
   .content{
-    width: 300px;
+    width: 350px;
     height: 200px;
     box-shadow: 0 0 3px #000000ab;
     border-radius: 10px;
    }
 
+   .post-img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+  } 
+
+  
+.post-sec{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  margin-bottom: 20px;
+}
+
+.business-name{
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.news-div{
+  background: linear-gradient(orangered, orange);
+  width: 700px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.head-news-one{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+ }   
+
+ .head-news{
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 15px;
+ }
+
+ .new-text{
+  text-align: center;
+ font-weight: bold;
+ color: #fff;
+ font-size: 20px;
+ }
+
+ .email-input{
+  width: 330px;
+  height: 35px;
+  background: linear-gradient(orangered, orange);
+  border: 1px solid #000;
+  outline: none;
+  border-radius: 5px;
+}
+
+.foot-sec{
+  background-color: #000;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
      }
 
        /* Hamburger part */
