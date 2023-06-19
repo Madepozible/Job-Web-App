@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+               .form-one{
+                background-color:#fff;
+                height: 450px;
+            width: 350px;
+              border-radius: 10px;
+               }
+               .form-two{
+                background-color:#fff;
+                height: 450px;
+                width: 350px;
+                border-radius: 10px;
+               }
+
+               .container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                margin: 50px auto;
+                column-gap: 20px;
+                row-gap: 20px;
+                background-color: rgb(22, 157, 202);
+                height: 600px;
+                border-radius: 10px;
+               }
+                
+               .log{
+                text-align: center;
+               padding-top: 20px;
+                padding-bottom: 20px;
+                font-size: 20px;
+                font-weight: bold;
+               }
+                #log{
+                padding-top: 10px;
+                    padding-bottom: 10px;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+
+        .input-one{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+.email-one{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid #D4D4D6;
+    margin-bottom: 10px;
+}
+.email-one::placeholder{
+    padding-left: 15px;
+}
+.password-one{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid #D4D4D6;
+    margin-bottom: 10px;
+}
+.password-one::placeholder{
+    padding-left: 15px;
+}
+
+.forget{
+    text-align: center;
+    color: rgb(22, 157, 202);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.login-dev{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: rgb(16, 16, 243);
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-para{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 7px;
+}
+
+    #login-para{
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 10px;
+        margin-top: 8 px;
+    }
+.signup-one{
+    color: rgb(22, 157, 202);
+}
+
+.or-one{
+    text-align: center;
+    margin-bottom: 20px;
+}
+    #or-two{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+.icon-one{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+    .facebook-one{
+        width: 300px;
+        height: 35px;
+        margin-bottom: 20px;
+        background-color: blue;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #facebook-two{
+        margin-bottom: 10px;
+    }
+
+        .google-one{
+            width: 300px;
+            height: 35px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            border: 2px solid #D4D4D6;
+            cursor: pointer;
+        }
+                 
+               @media screen and (max-width:800px){
+                .form-one{
+                    background-color:#D4D4D6;
+    
+    
+                   }
+                   .form-two{
+                    background-color:#D4D4D6;
+                 
+                   }
+
+                   .container{
+                    background-color: white;
+                    
+                   }
+               }
+
+               @media screen and (min-width:900px){
+                .container{
+                   width: 1000px;
+                   height: 550px;
+                }
+               }
