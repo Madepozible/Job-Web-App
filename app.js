@@ -62,7 +62,7 @@
          .then((userCredential) =>{
             var user = userCredential.user;
             console.log("user", user.email);
-            window.location = "home.html";
+            window.location = "cool.html";
          })
 
          .catch((error) =>{
